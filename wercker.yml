@@ -5,3 +5,10 @@ build:
         version: 0.13
         theme: redlounge
         flags: --disableSitemap=true
+
+deploy:
+  steps:
+    - gh-pages:
+        token: $GIT_TOKEN
+        domain: bl4ck5un.github.io
+        basedir: public
