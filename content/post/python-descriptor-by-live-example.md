@@ -2,6 +2,7 @@
 title = "Python Descriptor by Example"
 date = "2014-03-12"
 tags = ["Python", "Python descriptor"]
+categories = ["Blog"]
 +++
 
 Understand how to write and take advantage of Python descriptor by looking into product example from Django source code.

@@ -2,6 +2,7 @@
 title = "Quotation concept in Unix Shell"
 date = "2014-02-14"
 tages = ["Shell"]
+categories = ["Blog"]
 +++
 
 Tell me how to quote.

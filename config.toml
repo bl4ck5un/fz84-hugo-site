@@ -13,3 +13,8 @@ theme= "hyde"
 	name = "Blogs"
 	url = "/post/"
 
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+

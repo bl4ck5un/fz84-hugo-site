@@ -1,6 +1,8 @@
 #!/bin/bash -e
 
 PUBLIC=public
+
+rm -rf $PUBLIC
 hugo 
 
 if [ ! -d _deploy ]
