@@ -1,0 +1,15 @@
+baseurl= "http://fanzy.me/"
+languageCode= "en-us"
+title= "fz84"
+theme= "hyde"
+
+[params]
+	Description= "Read, write and do research in systems and security"
+	author= "FanZ"
+	motto= "Less is more"
+	Index = "True"
+
+[[menu.main]]
+	name = "Blogs"
+	url = "/post/"
+
