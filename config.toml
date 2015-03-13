@@ -8,6 +8,8 @@ theme= "hyde"
 	author= "FanZ"
 	motto= "Less is more"
 	Index = "True"
+    disqusShortname = "fz84"
+
 
 [[menu.main]]
 	name = "Blogs"
@@ -19,4 +21,3 @@ theme= "hyde"
 	category = "categories"
 
 
-disqusShortname = "fz84"
