@@ -1,4 +1,4 @@
-baseurl= "http://bl4ck5un.github.io"
+baseurl= "http://fanzy.me"
 languageCode= "en-us"
 title= "fz84"
 theme= "hyde"
@@ -18,3 +18,5 @@ theme= "hyde"
 	tag = "tags"
 	category = "categories"
 
+
+disqusShortname = "fz84"
