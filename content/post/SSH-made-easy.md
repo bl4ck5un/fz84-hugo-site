@@ -1,5 +1,5 @@
 +++
-Categories = ["Development", "Blog"]
+Categories = ["Development", "blog"]
 Description = ""
 Tags = ["Development", "SSH"]
 date = "2015-07-07T16:58:45-04:00"
