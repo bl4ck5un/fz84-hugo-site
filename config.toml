@@ -5,16 +5,14 @@ theme= "hyde"
 
 [params]
 	Description= "Read, write and do research in systems and security"
-	author= "FanZ"
+	author= "Fan Zhang"
 	motto= "Less is more"
 	Index = "True"
-    disqusShortname = "fz84"
-
+    disqusShortname = "FZ84"
 
 [[menu.main]]
 	name = "Blogs"
 	url = "/post/"
-
 
 [taxonomies]
 	tag = "tags"
