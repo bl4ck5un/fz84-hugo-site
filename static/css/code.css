@@ -1,12 +1,19 @@
 /*final word about code highlight*/
 
-pre code {
+/*
+code{
 	font-size: 13px;
-	font-family: Menlo, Monaco, monospace;
+	border: 1px solid #ccc;
+}
+*/
+
+pre code {
+    border: none;
 }
 
+/*
 pre {
 	padding: 10px;
 	margin: 0;
-	/*border: 1px solid #ccc;*/
 }
+*/
