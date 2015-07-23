@@ -1,9 +1,14 @@
 #!/bin/bash -e
 BASE=$(pwd)
 PUBLIC=public
-
+THEME=$BASE/themes/hyde
 rm -rf $PUBLIC
 hugo 
+
+pushd $THEME/compass
+compass compile
+popd
+
 
 if [ ! -d _deploy ]
 then
