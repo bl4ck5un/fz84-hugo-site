@@ -15,7 +15,9 @@ then
     git clone https://github.com/bl4ck5un/bl4ck5un.github.io _deploy
 fi
 
-cd _deploy
+pushd _deploy
+
+git pull
 
 rm -rf *
 cp -rf ../$PUBLIC/* .
@@ -31,4 +33,4 @@ git commit -m "Site updated `date`"
 git push
 
 echo "Done"
-
+popd
