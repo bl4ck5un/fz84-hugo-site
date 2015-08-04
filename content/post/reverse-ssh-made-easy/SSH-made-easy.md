@@ -10,7 +10,8 @@ draft = false
 # Settings
 
 SSH (Secure Shell) is a must-have tool for many developers who heavily rely on
-SSH to script and manage their remote servers. However, using SSH in reality is often not as handy as I'd expect.
+SSH to script and manage their remote servers. However, using SSH in reality is
+often not as handy as I'd expect.
 
 - For example,
 if the remote server is behind a firewall or NAT (which is often the case when
@@ -23,7 +24,7 @@ a Linux box at home, with no dedicated public IP from you IPS, it's quite not
 easy to get SSH works. You need to configure port forwarding on the
 router, and figure out a way to broadcast the IP address.
 
-![Inconvenient using case of SSH](../aws-ssh.png)
+![Inconvenient using case of SSH](../cano-ssh.png)
 
 All these inconveniences dwarf the handy nature of SSH. But we'll not
 live with it. Fortunately, SSH is built-in
@@ -36,7 +37,7 @@ how to setup a hassle-free access to your remote server using this technique.
 The setting I'm dealing with is illustrated in the following figure. There
 are three parties involved:
 
-![figure2](../canonical-ssh.png)
+![figure2](../aws-ssh.png)
 
 - the remote server, with hostname `cs`
 - a cloud server with public IP, with hostname `aws-ssh`
