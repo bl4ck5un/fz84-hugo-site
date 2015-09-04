@@ -1,19 +1,47 @@
-# See it [here](http://fanzy.me)!
+# See it!
 
 This repo contains the source code of my personal website and blog hosted 
-at github pages accessible from http://fanzy.me.
+at github pages (http://fanzy.me)
 
 
 # Work on
 
-## getting the source code
+## Obtain tools
 
-[Hugo](http://gohugo.io) is the static website generator behind this website,
-which chould be installed by `brew install hugo`.
+- [Hugo](http://gohugo.io) is the static website generator spawning this site. 
+    please install it by `brew install hugo` (assume Mac OS w/ `brew`)
+- [Compass](http://compass-style.org) is a style framework. You can install
+    it through `gem`:
+
+        sudo gem upate --system
+        sudo gem install compass
+
+## getting the source code
 
 To include all submodules, clone this repo with 
 
     git clone --recursive https://github.com/bl4ck5un/fz84-hugo-site
+
+## build
+
+First make sure you have cloned all of the submodules (preferably by `--recursive` flag).
+If not, it's highly suggested that you start from the very beginning. Then,
+following steps to build the Hugo website as well as its dependencies:
+
+    pushd theme/hyde/compass 
+    compass compile
+    popd
+    hugo
+
+Verify the result and correct any errors to make sure everything is setup.
+
+## create new blog
+
+At the root directory of source tree, issue the following:
+
+    hugo new post/article-title.md
+
+A prepopulated markdown file will be created at `content/post`.
 
 
 ## notes
