@@ -4,7 +4,7 @@ title= "fz84"
 theme= "hyde"
 
 [params]
-	Description= "Read, write and do research in systems and security"
+	Description= "System & security"
 	author= "Fan Zhang"
 	motto= "Less is more"
 	Index = "True"
