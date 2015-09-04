@@ -1,9 +1,8 @@
 +++
 categories = ["blog", "note"]
 date = "2015-09-04T10:53:13-04:00"
-tags = ["x", "y"]
+tags = ["aws", "Python"]
 title = "Use Amazon Machine Learning in Python"
-draft = true
 +++
 
 ## AWS Credentials
