@@ -2,12 +2,14 @@
 BASE=$(pwd)
 PUBLIC=public
 THEME=$BASE/themes/hyde
-rm -rf $PUBLIC
-hugo 
+
 
 pushd $THEME/compass
 compass compile
 popd
+
+rm -rf $PUBLIC
+hugo 
 
 
 if [ ! -d _deploy ]
