@@ -4,7 +4,7 @@ This repo contains the source code of my personal website and blog hosted
 at github pages (http://fanzy.me)
 
 
-# Work on
+# Work on it!
 
 ## Obtain tools
 
@@ -13,7 +13,7 @@ at github pages (http://fanzy.me)
 - [Compass](http://compass-style.org) is a style framework. You can install
     it through `gem`:
 
-        sudo gem upate --system
+        sudo gem update --system
         sudo gem install compass
 
 ## getting the source code

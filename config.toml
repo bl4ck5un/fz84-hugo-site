@@ -1,6 +1,6 @@
 baseurl= "http://fanzy.me"
 languageCode= "en-us"
-title= "fz84"
+title= "Fanz@CU"
 theme= "hyde"
 
 [params]
@@ -17,5 +17,3 @@ theme= "hyde"
 [taxonomies]
 	tag = "tags"
 	category = "categories"
-
-
