@@ -1,12 +1,11 @@
 baseurl= "http://fanzy.me"
 languageCode= "en-us"
-title= "Fanz@CU"
+title= "Fan@CU"
 theme= "hyde"
 
 [params]
-	Description= "System & security"
+	Description= "Less is more"
 	author= "Fan Zhang"
-	motto= "Less is more"
 	Index = "True"
     disqusShortname = "FZ84"
 
