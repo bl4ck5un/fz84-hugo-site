@@ -11,6 +11,11 @@ popd
 rm -rf $PUBLIC
 hugo 
 
+pushd $PUBLIC
+date=$(date)
+ack -l "LASTUPDATE" | xargs sed -i '' -e "s/LASTUPDATE/$date/g"
+popd
+
 
 if [ ! -d _deploy ]
 then

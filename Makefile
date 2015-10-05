@@ -3,9 +3,9 @@ PUBLIC=public
 THEME=$(BASE)/themes/hyde
 WEB=./public/*
 
-deploy:
+deploy: 
 	sh deploy.sh
 
-cu:
+cu: deploy
 	rsync -vrL --delete $(WEB) fanz@lion.cs.cornell.edu:/home/WIN/fanz/MyWeb
 
